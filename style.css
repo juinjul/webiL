@@ -1,0 +1,82 @@
+body{
+    background: url(space.jpg)
+}
+
+/* kode css navigator */
+
+ul{
+    list-style: none;
+    background: black;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    width: 1280px;
+    height: 60px;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+ul li a.home{
+    background-color: rgb(255, 255, 255);
+}
+
+ul a:hover{
+    background-color: rgb(37, 37, 37);
+    transform: scale(1.1);
+}
+
+/* kode css dropdown */
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+    background-color: black;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.footer{
+    width: 1280px;
+    bottom: 0px;
+}
+
+/* code css sidebar */
+
+.column{
+    float: left;
+    padding: 0px 0px;
+}
+
+.column.side{
+    margin: 0px 0px;
+    width: 20%;
+    background-color: rgb(44, 43, 43);
+    text-align: right;
+}
+
+.column.middle{
+    margin: 0px 0px;
+    width: 80%;
+    background-color: rgb(44, 43, 43);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white
+}
